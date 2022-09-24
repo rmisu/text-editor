@@ -1,5 +1,4 @@
 import { openDB } from 'idb';
-import { restoreDefaultPrompts } from 'inquirer';
 
 const initdb = async () =>
   openDB('jate', 1, {
